@@ -1,4 +1,4 @@
-# Throw_a_pojectile
+# Throw_a_projectile
 
 ## Introduction @unplugged
 

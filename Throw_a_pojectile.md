@@ -1,4 +1,4 @@
-# Throw_a_projectile
+# Throw a projectile
 
 ## Introduction @unplugged
 
@@ -6,7 +6,7 @@
 
 This allows you to easily create things like asteroids that move across the screen, or lasers that are fired from a spaceship.
 
-## Step 1  @fullscreen
+## Step 1
 
 Find ``||variables:set mySprite to||`` in ``||sprites:Sprites||``, and drag it into the ``||loops:on start||``. Open the image editor for ``||variables:mySprite||``, and select or create a character.
 **Just like last week make sure you re-name the ``||variables:mySprite||`` variable**
@@ -40,7 +40,7 @@ let george = sprites.create(img`
 `, SpriteKind.Player)
 ```
 
-## Step 2 @fullscreen
+## Step 2
 
 Find ``||sprites:projectile from mySprite||`` in ``||sprites:Sprites||``, and drag it into the bottom of ``||loops:on start||``.
 
@@ -93,7 +93,7 @@ let projectile = sprites.createProjectileFromSprite(img`
 `, george, 50, 100)
 ```
 
-## Step 3 @fullscreen
+## Step 3
 
 Open the image editor for ``||variables:projectile||``, and **draw** an image of something to throw.
 
@@ -195,7 +195,7 @@ let projectile = sprites.createProjectileFromSprite(img`
 `, george, 50, -15)
 ```
 
-## Step 5 @fullscreen
+## Step 5
 
 Find ``||controller:on A button pressed||`` in ``||controller:Controller||``, and drag it into the workspace. Drag ``||variables:set projectile to||`` from ``||loops:on start||`` into ``||controller:on A button pressed||``.
 

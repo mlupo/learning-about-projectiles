@@ -1,6 +1,6 @@
 # Throw a projectile
 
-## Introduction @unplugged
+## Introduction @showdialog
 
 ``||sprites:Projectiles||`` are special ``||sprites:Sprites||`` that are made to move across the screen.
 
